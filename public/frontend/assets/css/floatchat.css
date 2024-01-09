@@ -1,0 +1,36 @@
+/* #chat{
+    position: fixed;
+    display: block;
+    left: auto;
+    top: auto;
+    right:1rem;
+    bottom:1rem;
+    z-index: 99999;
+} */
+
+
+.float {
+    position: fixed;
+    display: block;
+    left: auto;
+    top: auto;
+    right:1rem;
+    bottom:22px;
+    z-index: 99999;
+    width: 148px;
+    height: auto;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    z-index: 100;
+}
+
+.my-float {
+    padding: 10px 6px 10px 6px;
+}
+
+.float:hover {
+    color: #FFF;
+}
